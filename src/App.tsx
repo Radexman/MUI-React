@@ -8,12 +8,12 @@
 // import MuiRating from './components/MuiRating';
 // import MuiAutocomplete from './components/MuiAutocomplete';
 import MuiLayout from './components/MuiLayout';
-import styles from './App.module.css';
+// import styles from './App.module.css';
 
 function App() {
 	return (
 		<>
-			<div className={styles.app}>
+			<div>
 				{/* <MuiTypography /> */}
 				{/* <MuiButton /> */}
 				{/* <MuiTextField /> */}
