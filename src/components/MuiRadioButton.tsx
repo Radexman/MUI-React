@@ -1,7 +1,7 @@
 import { ChangeEvent, useState } from 'react';
 import { Box, FormControl, FormLabel, FormControlLabel, RadioGroup, Radio, FormHelperText } from '@mui/material';
 
-const RadioButton = () => {
+const MuiRadioButton = () => {
 	const [value, setValue] = useState('0-2');
 
 	function handleChangeExp(event: ChangeEvent<HTMLInputElement>) {
@@ -58,4 +58,4 @@ const RadioButton = () => {
 	);
 };
 
-export default RadioButton;
+export default MuiRadioButton;

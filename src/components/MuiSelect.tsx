@@ -1,7 +1,7 @@
 import { ChangeEvent, useState } from 'react';
 import { Box, TextField, MenuItem } from '@mui/material';
 
-const Select = () => {
+const MuiSelect = () => {
 	const [countries, setCountries] = useState<string[]>([]);
 
 	console.log(countries);
@@ -35,4 +35,4 @@ const Select = () => {
 	);
 };
 
-export default Select;
+export default MuiSelect;
