@@ -10,7 +10,8 @@
 // import MuiLayout from './components/MuiLayout';
 // import MuiCard from './components/MuiCard';
 // import MuiAccordion from './components/MuiAccordion';
-import MuiImageList from './components/MuiImageList';
+// import MuiImageList from './components/MuiImageList';
+import MuiNavbar from './components/MuiNavbar';
 // import styles from './App.module.css';
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
 				{/* <MuiLayout /> */}
 				{/* <MuiCard /> */}
 				{/* <MuiAccordion /> */}
-				<MuiImageList />
+				{/* <MuiImageList /> */}
+				<MuiNavbar />
 			</div>
 		</>
 	);
