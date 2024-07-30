@@ -12,6 +12,7 @@
 // import MuiAccordion from './components/MuiAccordion';
 // import MuiImageList from './components/MuiImageList';
 import MuiNavbar from './components/MuiNavbar';
+import MuiLink from './components/MuiLink';
 // import styles from './App.module.css';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 				{/* <MuiAccordion /> */}
 				{/* <MuiImageList /> */}
 				<MuiNavbar />
+				<MuiLink />
 			</div>
 		</>
 	);
