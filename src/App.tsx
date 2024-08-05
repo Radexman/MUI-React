@@ -21,7 +21,8 @@
 // import MuiBadge from './components/MuiBadge';
 // import MuiList from './components/MuiList';
 // import MuiChip from './components/MuiChip';
-import MuiTooltip from './components/MuiTooltip';
+// import MuiTooltip from './components/MuiTooltip';
+import MuiTable from './components/MuiTable';
 // import styles from './App.module.css';
 
 function App() {
@@ -51,7 +52,8 @@ function App() {
 				{/* <MuiBadge /> */}
 				{/* <MuiList /> */}
 				{/* <MuiChip /> */}
-				<MuiTooltip />
+				{/* <MuiTooltip /> */}
+				<MuiTable />
 			</div>
 		</>
 	);
